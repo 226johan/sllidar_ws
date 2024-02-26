@@ -1,0 +1,2 @@
+Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16

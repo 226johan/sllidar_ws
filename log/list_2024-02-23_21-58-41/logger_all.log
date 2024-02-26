@@ -1,0 +1,116 @@
+[1.029s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/johan/sllidar_ws']
+[1.029s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/johan/sllidar_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f89920e7520>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f89920e7520>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8991c39640>)
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.086s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/johan/sllidar_ws'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'ignore'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'ignore_ament_install'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extensions ['colcon_pkg']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'colcon_pkg'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extensions ['colcon_meta']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'colcon_meta'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extensions ['ros']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'ros'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extensions ['cmake', 'python']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'cmake'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'python'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extensions ['python_setup_py']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws) by extension 'python_setup_py'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/build) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/build) ignored
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/install) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/install) ignored
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/log) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/log) ignored
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'ignore_ament_install'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extensions ['colcon_pkg']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'colcon_pkg'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extensions ['colcon_meta']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'ros'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extensions ['cmake', 'python']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'cmake'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'python'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extensions ['python_setup_py']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src) by extension 'python_setup_py'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extension 'ignore_ament_install'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extensions ['colcon_pkg']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extension 'colcon_pkg'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extensions ['colcon_meta']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2) by extension 'ros'
+[1.097s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2' with type 'ros.ament_cmake' and name 'fdilink_ahrs'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extensions ['colcon_pkg']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extension 'colcon_pkg'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extension 'colcon_meta'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extensions ['ros']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_bringup) by extension 'ros'
+[1.098s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_cartographer) by extension 'ros'
+[1.098s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/robot_cartographer' with type 'ros.ament_cmake' and name 'robot_cartographer'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_navigation2) by extension 'ros'
+[1.099s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/robot_navigation2' with type 'ros.ament_cmake' and name 'robot_navigation2'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/robot_template) by extension 'ros'
+[1.099s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/robot_template' with type 'ros.ament_python' and name 'robot_template'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extension 'ignore_ament_install'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extensions ['colcon_pkg']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extension 'colcon_pkg'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extensions ['colcon_meta']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extension 'colcon_meta'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extensions ['ros']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sam_bot_description) by extension 'ros'
+[1.100s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/sam_bot_description' with type 'ros.ament_cmake' and name 'sam_bot_description'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extension 'ignore'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extension 'ignore_ament_install'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extensions ['colcon_pkg']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extension 'colcon_pkg'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extensions ['colcon_meta']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extension 'colcon_meta'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extensions ['ros']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/johan/sllidar_ws/src/sllidar_ros2) by extension 'ros'
+[1.101s] DEBUG:colcon.colcon_core.package_identification:Package '/home/johan/sllidar_ws/src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

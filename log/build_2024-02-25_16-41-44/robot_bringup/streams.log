@@ -1,0 +1,22 @@
+[0.510s] Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+[0.745s] [100%] Built target robot_bringup
+[0.749s] Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+[0.780s] Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_bringup
+[0.792s] -- Install configuration: ""
+[0.793s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/lib/robot_bringup/robot_bringup
+[0.793s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[0.793s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[0.793s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[0.794s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[0.794s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/environment/path.sh
+[0.794s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[0.794s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/local_setup.bash
+[0.794s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/local_setup.sh
+[0.794s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[0.797s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[0.797s] -- Installing: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.dsv
+[0.797s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[0.797s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[0.797s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[0.798s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.xml
+[0.879s] Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_bringup

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/foxy/include/**",
+        "/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2/include/**",
+        "/home/johan/sllidar_ws/src/robot_bringup/include/**",
+        "/home/johan/sllidar_ws/src/robot_cartographer/include/**",
+        "/home/johan/sllidar_ws/src/robot_navigation2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

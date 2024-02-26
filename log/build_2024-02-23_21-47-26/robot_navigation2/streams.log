@@ -1,0 +1,47 @@
+[0.288s] Invoking command in '/home/johan/sllidar_ws/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_navigation2
+[0.559s] -- The C compiler identification is GNU 9.4.0
+[0.561s] -- The CXX compiler identification is GNU 9.4.0
+[0.562s] -- Check for working C compiler: /usr/bin/cc
+[0.563s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.563s] -- Detecting C compiler ABI info
+[0.563s] -- Detecting C compiler ABI info - done
+[0.563s] -- Detecting C compile features
+[0.563s] -- Detecting C compile features - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.563s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.632s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.632s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.767s] -- Found nav2_bringup: 0.4.7 (/opt/ros/foxy/share/nav2_bringup/cmake)
+[0.769s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.821s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.822s] -- Added test 'lint_cmake' to check CMake code style
+[0.823s] -- Added test 'xmllint' to check XML markup files
+[0.824s] -- Configuring done
+[0.826s] -- Generating done
+[0.826s] -- Build files have been written to: /home/johan/sllidar_ws/build/robot_navigation2
+[0.949s] Invoked command in '/home/johan/sllidar_ws/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_navigation2
+[0.951s] Invoking command in '/home/johan/sllidar_ws/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_navigation2 -- -j16 -l16
+[1.051s] Invoked command in '/home/johan/sllidar_ws/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_navigation2 -- -j16 -l16
+[1.146s] Invoking command in '/home/johan/sllidar_ws/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_navigation2
+[1.151s] -- Install configuration: ""
+[1.151s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/ament_index/resource_index/package_run_dependencies/robot_navigation2
+[1.151s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/ament_index/resource_index/parent_prefix_path/robot_navigation2
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.sh
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.dsv
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/environment/path.sh
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/environment/path.dsv
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/local_setup.bash
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/local_setup.sh
+[1.152s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/local_setup.zsh
+[1.153s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/local_setup.dsv
+[1.153s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.dsv
+[1.153s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/ament_index/resource_index/packages/robot_navigation2
+[1.153s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config.cmake
+[1.153s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config-version.cmake
+[1.153s] -- Installing: /home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.xml
+[1.323s] Invoked command in '/home/johan/sllidar_ws/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_navigation2

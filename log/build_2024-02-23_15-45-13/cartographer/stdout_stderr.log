@@ -1,0 +1,46 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build type: Release
+文件 /home/johan/sllidar_ws/build/cartographer/AllFiles.cmake 和 - 不同
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found GMock: /usr/lib/x86_64-linux-gnu/libgmock_main.a;/usr/lib/x86_64-linux-gnu/libgmock.a;/usr/lib/x86_64-linux-gnu/libgtest.a;-lpthread  
+CMake Error at CMakeLists.txt:32 (find_package):
+  By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "absl", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "absl" with any of
+  the following names:
+
+    abslConfig.cmake
+    absl-config.cmake
+
+  Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+  "absl_DIR" to a directory containing one of the above files.  If "absl"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/johan/sllidar_ws/build/cartographer/CMakeFiles/CMakeOutput.log".
+See also "/home/johan/sllidar_ws/build/cartographer/CMakeFiles/CMakeError.log".

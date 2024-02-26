@@ -1,0 +1,33 @@
+[0.730s] Invoking command in '/home/johan/sllidar_ws/src/robot_template': PYTHONPATH=/home/johan/sllidar_ws/build/robot_template/prefix_override:/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_template build --build-base /home/johan/sllidar_ws/build/robot_template/build install --record /home/johan/sllidar_ws/build/robot_template/install.log --install-scripts $base/lib/robot_template --single-version-externally-managed
+[0.848s] running egg_info
+[0.849s] creating ../../build/robot_template/robot_template.egg-info
+[0.849s] writing ../../build/robot_template/robot_template.egg-info/PKG-INFO
+[0.850s] writing dependency_links to ../../build/robot_template/robot_template.egg-info/dependency_links.txt
+[0.851s] writing entry points to ../../build/robot_template/robot_template.egg-info/entry_points.txt
+[0.851s] writing requirements to ../../build/robot_template/robot_template.egg-info/requires.txt
+[0.852s] writing top-level names to ../../build/robot_template/robot_template.egg-info/top_level.txt
+[0.852s] writing manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+[0.867s] reading manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+[0.867s] writing manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+[0.867s] running build
+[0.868s] running build_py
+[0.868s] creating /home/johan/sllidar_ws/build/robot_template/build
+[0.868s] creating /home/johan/sllidar_ws/build/robot_template/build/lib
+[0.868s] creating /home/johan/sllidar_ws/build/robot_template/build/lib/robot_template
+[0.868s] copying robot_template/__init__.py -> /home/johan/sllidar_ws/build/robot_template/build/lib/robot_template
+[0.868s] running install
+[0.868s] running install_lib
+[0.869s] creating /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template
+[0.869s] copying /home/johan/sllidar_ws/build/robot_template/build/lib/robot_template/__init__.py -> /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template
+[0.869s] byte-compiling /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template/__init__.py to __init__.cpython-38.pyc
+[0.869s] running install_data
+[0.870s] creating /home/johan/sllidar_ws/install/robot_template/share/ament_index
+[0.870s] creating /home/johan/sllidar_ws/install/robot_template/share/ament_index/resource_index
+[0.870s] creating /home/johan/sllidar_ws/install/robot_template/share/ament_index/resource_index/packages
+[0.870s] copying resource/robot_template -> /home/johan/sllidar_ws/install/robot_template/share/ament_index/resource_index/packages
+[0.870s] copying package.xml -> /home/johan/sllidar_ws/install/robot_template/share/robot_template
+[0.870s] running install_egg_info
+[0.871s] Copying ../../build/robot_template/robot_template.egg-info to /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template-0.0.0-py3.8.egg-info
+[0.871s] running install_scripts
+[0.882s] writing list of installed files to '/home/johan/sllidar_ws/build/robot_template/install.log'
+[0.895s] Invoked command in '/home/johan/sllidar_ws/src/robot_template' returned '0': PYTHONPATH=/home/johan/sllidar_ws/build/robot_template/prefix_override:/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_template build --build-base /home/johan/sllidar_ws/build/robot_template/build install --record /home/johan/sllidar_ws/build/robot_template/install.log --install-scripts $base/lib/robot_template --single-version-externally-managed

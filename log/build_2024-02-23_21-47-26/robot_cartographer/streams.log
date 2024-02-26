@@ -1,0 +1,53 @@
+[0.349s] Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_cartographer
+[0.612s] -- The C compiler identification is GNU 9.4.0
+[0.614s] -- The CXX compiler identification is GNU 9.4.0
+[0.615s] -- Check for working C compiler: /usr/bin/cc
+[0.616s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.617s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.619s] -- Detecting C compile features
+[0.620s] -- Detecting C compile features - done
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.622s] -- Detecting CXX compiler ABI info
+[0.654s] -- Detecting CXX compiler ABI info - done
+[0.672s] -- Detecting CXX compile features
+[0.674s] -- Detecting CXX compile features - done
+[0.674s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.695s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.696s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.807s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.865s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.866s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.868s] -- Added test 'lint_cmake' to check CMake code style
+[0.868s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.869s] -- Added test 'xmllint' to check XML markup files
+[0.869s] -- Configuring done
+[0.872s] -- Generating done
+[0.872s] -- Build files have been written to: /home/johan/sllidar_ws/build/robot_cartographer
+[1.009s] Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_cartographer
+[1.011s] Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+[1.111s] Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+[1.206s] Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer
+[1.212s] -- Install configuration: ""
+[1.212s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/config
+[1.212s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/config/robot_2d.lua
+[1.212s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/launch
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/launch/cartographer.launch.py
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/rviz
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/ament_index/resource_index/package_run_dependencies/robot_cartographer
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/ament_index/resource_index/parent_prefix_path/robot_cartographer
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/ament_prefix_path.sh
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/ament_prefix_path.dsv
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/path.sh
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/path.dsv
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.bash
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.sh
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.zsh
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.dsv
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.dsv
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/ament_index/resource_index/packages/robot_cartographer
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/cmake/robot_cartographerConfig.cmake
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/cmake/robot_cartographerConfig-version.cmake
+[1.213s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.xml
+[1.453s] Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer

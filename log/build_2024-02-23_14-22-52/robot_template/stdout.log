@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robot_template/robot_template.egg-info
+writing ../../build/robot_template/robot_template.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_template/robot_template.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_template/robot_template.egg-info/entry_points.txt
+writing requirements to ../../build/robot_template/robot_template.egg-info/requires.txt
+writing top-level names to ../../build/robot_template/robot_template.egg-info/top_level.txt
+writing manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/johan/sllidar_ws/build/robot_template/build
+creating /home/johan/sllidar_ws/build/robot_template/build/lib
+creating /home/johan/sllidar_ws/build/robot_template/build/lib/robot_template
+copying robot_template/__init__.py -> /home/johan/sllidar_ws/build/robot_template/build/lib/robot_template
+running install
+running install_lib
+creating /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template
+copying /home/johan/sllidar_ws/build/robot_template/build/lib/robot_template/__init__.py -> /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template
+byte-compiling /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/johan/sllidar_ws/install/robot_template/share/ament_index
+creating /home/johan/sllidar_ws/install/robot_template/share/ament_index/resource_index
+creating /home/johan/sllidar_ws/install/robot_template/share/ament_index/resource_index/packages
+copying resource/robot_template -> /home/johan/sllidar_ws/install/robot_template/share/ament_index/resource_index/packages
+copying package.xml -> /home/johan/sllidar_ws/install/robot_template/share/robot_template
+running install_egg_info
+Copying ../../build/robot_template/robot_template.egg-info to /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/johan/sllidar_ws/build/robot_template/install.log'

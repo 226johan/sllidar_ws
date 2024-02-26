@@ -1,0 +1,25 @@
+[0.456s] Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+[0.690s] Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+[0.728s] Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer
+[0.739s] -- Install configuration: ""
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/config
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/config/robot_2d.lua
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/launch
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/launch/cartographer.launch.py
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/rviz
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/ament_index/resource_index/package_run_dependencies/robot_cartographer
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/ament_index/resource_index/parent_prefix_path/robot_cartographer
+[0.740s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/ament_prefix_path.sh
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/ament_prefix_path.dsv
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/path.sh
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/environment/path.dsv
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.bash
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.sh
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.zsh
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/local_setup.dsv
+[0.741s] -- Installing: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.dsv
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/ament_index/resource_index/packages/robot_cartographer
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/cmake/robot_cartographerConfig.cmake
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/cmake/robot_cartographerConfig-version.cmake
+[0.741s] -- Up-to-date: /home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.xml
+[0.742s] Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer

@@ -1,0 +1,2 @@
+Invoking command in '/home/johan/sllidar_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer
+Invoked command in '/home/johan/sllidar_ws/build/cartographer' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer

@@ -1,0 +1,48 @@
+[0.409s] Invoking command in '/home/johan/sllidar_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer
+[0.615s] -- The C compiler identification is GNU 9.4.0
+[0.617s] -- The CXX compiler identification is GNU 9.4.0
+[0.617s] -- Check for working C compiler: /usr/bin/cc
+[0.619s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.619s] -- Detecting C compiler ABI info
+[0.620s] -- Detecting C compiler ABI info - done
+[0.620s] -- Detecting C compile features
+[0.620s] -- Detecting C compile features - done
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++
+[0.680s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.682s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.750s] -- Detecting CXX compile features
+[0.750s] -- Detecting CXX compile features - done
+[0.750s] -- Build type: Release
+[0.760s] 文件 /home/johan/sllidar_ws/build/cartographer/AllFiles.cmake 和 - 不同
+[0.777s] -- Looking for pthread.h
+[0.834s] -- Looking for pthread.h - found
+[0.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.894s] -- Looking for pthread_create in pthreads
+[0.938s] -- Looking for pthread_create in pthreads - not found
+[0.939s] -- Looking for pthread_create in pthread
+[0.992s] -- Looking for pthread_create in pthread - found
+[0.993s] -- Found Threads: TRUE  
+[0.994s] -- Found GMock: /usr/lib/x86_64-linux-gnu/libgmock_main.a;/usr/lib/x86_64-linux-gnu/libgmock.a;/usr/lib/x86_64-linux-gnu/libgtest.a;-lpthread  
+[1.008s] CMake Error at CMakeLists.txt:32 (find_package):
+[1.008s]   By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+[1.008s]   asked CMake to find a package configuration file provided by "absl", but
+[1.008s]   CMake did not find one.
+[1.008s] 
+[1.008s]   Could not find a package configuration file provided by "absl" with any of
+[1.008s]   the following names:
+[1.008s] 
+[1.008s]     abslConfig.cmake
+[1.008s]     absl-config.cmake
+[1.008s] 
+[1.008s]   Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+[1.008s]   "absl_DIR" to a directory containing one of the above files.  If "absl"
+[1.008s]   provides a separate development package or SDK, be sure it has been
+[1.008s]   installed.
+[1.009s] 
+[1.009s] 
+[1.009s] -- Configuring incomplete, errors occurred!
+[1.009s] See also "/home/johan/sllidar_ws/build/cartographer/CMakeFiles/CMakeOutput.log".
+[1.009s] See also "/home/johan/sllidar_ws/build/cartographer/CMakeFiles/CMakeError.log".
+[1.175s] Invoked command in '/home/johan/sllidar_ws/build/cartographer' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer

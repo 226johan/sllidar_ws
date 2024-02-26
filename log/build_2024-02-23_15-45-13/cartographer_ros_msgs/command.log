@@ -1,0 +1,1 @@
+Invoking command in '/home/johan/sllidar_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer_ros_msgs

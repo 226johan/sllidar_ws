@@ -1,0 +1,33 @@
+[0.407s] Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+[0.619s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.619s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.621s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.788s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.810s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.856s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.863s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.076s] CMake Error at CMakeLists.txt:47 (install):
+[1.076s]   install TARGETS given target "robot_bringup" which does not exist.
+[1.076s] 
+[1.077s] 
+[1.077s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.118s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.118s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.119s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johan/sllidar_ws/src/robot_bringup/include>
+[1.120s] -- Configured cppcheck exclude dirs and/or files: 
+[1.120s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.120s] -- Configured cpplint exclude dirs and/or files: 
+[1.120s] -- Added test 'lint_cmake' to check CMake code style
+[1.121s] -- Added test 'uncrustify' to check C / C++ code style
+[1.121s] -- Configured uncrustify additional arguments: 
+[1.121s] -- Added test 'xmllint' to check XML markup files
+[1.122s] -- Configuring incomplete, errors occurred!
+[1.122s] See also "/home/johan/sllidar_ws/build/robot_bringup/CMakeFiles/CMakeOutput.log".
+[1.123s] See also "/home/johan/sllidar_ws/build/robot_bringup/CMakeFiles/CMakeError.log".
+[1.126s] make: *** [Makefile:222：cmake_check_build_system] 错误 1
+[1.363s] Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16

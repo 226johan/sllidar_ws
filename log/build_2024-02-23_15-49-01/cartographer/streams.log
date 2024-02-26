@@ -1,0 +1,23 @@
+[0.411s] Invoking command in '/home/johan/sllidar_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer
+[0.637s] CMake Error at CMakeLists.txt:32 (find_package):
+[0.639s]   By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+[0.640s]   asked CMake to find a package configuration file provided by "absl", but
+[0.640s]   CMake did not find one.
+[0.640s] 
+[0.642s]   Could not find a package configuration file provided by "absl" with any of
+[0.642s]   the following names:
+[0.643s] 
+[0.643s]     abslConfig.cmake
+[0.645s]     absl-config.cmake
+[0.646s] 
+[0.646s]   Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+[0.647s]   "absl_DIR" to a directory containing one of the above files.  If "absl"
+[0.648s]   provides a separate development package or SDK, be sure it has been
+[0.648s]   installed.
+[0.648s] 
+[0.649s] 
+[0.653s] -- Build type: Release
+[0.653s] -- Configuring incomplete, errors occurred!
+[0.653s] See also "/home/johan/sllidar_ws/build/cartographer/CMakeFiles/CMakeOutput.log".
+[0.653s] See also "/home/johan/sllidar_ws/build/cartographer/CMakeFiles/CMakeError.log".
+[0.653s] Invoked command in '/home/johan/sllidar_ws/build/cartographer' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/cartographer

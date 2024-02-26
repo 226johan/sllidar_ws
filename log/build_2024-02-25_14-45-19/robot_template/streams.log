@@ -1,0 +1,20 @@
+[1.006s] Invoking command in '/home/johan/sllidar_ws/src/robot_template': PYTHONPATH=/home/johan/sllidar_ws/build/robot_template/prefix_override:/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_template build --build-base /home/johan/sllidar_ws/build/robot_template/build install --record /home/johan/sllidar_ws/build/robot_template/install.log --install-scripts $base/lib/robot_template --single-version-externally-managed
+[1.125s] running egg_info
+[1.125s] writing ../../build/robot_template/robot_template.egg-info/PKG-INFO
+[1.125s] writing dependency_links to ../../build/robot_template/robot_template.egg-info/dependency_links.txt
+[1.125s] writing entry points to ../../build/robot_template/robot_template.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/robot_template/robot_template.egg-info/requires.txt
+[1.125s] writing top-level names to ../../build/robot_template/robot_template.egg-info/top_level.txt
+[1.145s] reading manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+[1.145s] writing manifest file '../../build/robot_template/robot_template.egg-info/SOURCES.txt'
+[1.145s] running build
+[1.145s] running build_py
+[1.145s] running install
+[1.146s] running install_lib
+[1.147s] running install_data
+[1.147s] running install_egg_info
+[1.147s] removing '/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template-0.0.0-py3.8.egg-info' (and everything under it)
+[1.147s] Copying ../../build/robot_template/robot_template.egg-info to /home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages/robot_template-0.0.0-py3.8.egg-info
+[1.148s] running install_scripts
+[1.159s] writing list of installed files to '/home/johan/sllidar_ws/build/robot_template/install.log'
+[1.265s] Invoked command in '/home/johan/sllidar_ws/src/robot_template' returned '0': PYTHONPATH=/home/johan/sllidar_ws/build/robot_template/prefix_override:/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_template build --build-base /home/johan/sllidar_ws/build/robot_template/build install --record /home/johan/sllidar_ws/build/robot_template/install.log --install-scripts $base/lib/robot_template --single-version-externally-managed

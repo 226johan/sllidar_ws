@@ -1,0 +1,6 @@
+Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_bringup
+Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_bringup
+Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_bringup
+Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_bringup

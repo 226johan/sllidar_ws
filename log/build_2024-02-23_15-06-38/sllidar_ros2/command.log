@@ -1,0 +1,4 @@
+Invoking command in '/home/johan/sllidar_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/sllidar_ros2 -- -j16 -l16
+Invoked command in '/home/johan/sllidar_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/sllidar_ros2 -- -j16 -l16
+Invoking command in '/home/johan/sllidar_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/sllidar_ros2
+Invoked command in '/home/johan/sllidar_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/sllidar_ros2

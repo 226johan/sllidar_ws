@@ -1,0 +1,2 @@
+Invoking command in '/home/johan/sllidar_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/fdilink_ahrs -- -j16 -l16
+Invoked command in '/home/johan/sllidar_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/fdilink_ahrs -- -j16 -l16

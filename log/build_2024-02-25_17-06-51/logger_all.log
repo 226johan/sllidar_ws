@@ -1,0 +1,505 @@
+[1.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.148s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe112f87610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe112f87610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe112f55640>)
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.199s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/johan/sllidar_ws'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extension 'ignore_ament_install'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extensions ['colcon_pkg']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extension 'colcon_pkg'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extensions ['colcon_meta']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extension 'colcon_meta'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extensions ['ros']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/fdilink_ahrs_ROS2) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fdilink_ahrs_ROS2' with type 'ros.ament_cmake' and name 'fdilink_ahrs'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cartographer) by extension 'ros'
+[1.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_cartographer' with type 'ros.ament_cmake' and name 'robot_cartographer'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ros'
+[1.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_navigation2' with type 'ros.ament_cmake' and name 'robot_navigation2'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_template) by extension 'ros'
+[1.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_template' with type 'ros.ament_python' and name 'robot_template'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sam_bot_description) by extension 'ros'
+[1.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sam_bot_description' with type 'ros.ament_cmake' and name 'sam_bot_description'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[1.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/johan/sllidar_ws/install
+[1.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/foxy
+[1.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'cmake_args' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'cmake_target' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'cmake_clean_first' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'cmake_force_configure' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'ament_cmake_args' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'fdilink_ahrs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.472s] DEBUG:colcon.colcon_core.verb:Building package 'fdilink_ahrs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/fdilink_ahrs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/fdilink_ahrs', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2', 'symlink_install': False, 'test_result_base': None}
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.491s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'robot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.511s] DEBUG:colcon.colcon_core.verb:Building package 'robot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/robot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/robot_cartographer', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/robot_cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.530s] DEBUG:colcon.colcon_core.verb:Building package 'robot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/robot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/robot_navigation2', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/robot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.549s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'cmake_args' from command line to 'None'
+[1.549s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'cmake_target' from command line to 'None'
+[1.549s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.549s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'cmake_clean_cache' from command line to 'False'
+[1.550s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'cmake_clean_first' from command line to 'False'
+[1.550s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'cmake_force_configure' from command line to 'False'
+[1.550s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'ament_cmake_args' from command line to 'None'
+[1.550s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'catkin_cmake_args' from command line to 'None'
+[1.550s] Level 5:colcon.colcon_core.verb:set package 'robot_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.550s] DEBUG:colcon.colcon_core.verb:Building package 'robot_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/robot_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/robot_template', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/robot_template', 'symlink_install': False, 'test_result_base': None}
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.569s] DEBUG:colcon.colcon_core.verb:Building package 'sam_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/sam_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/sam_bot_description', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/sam_bot_description', 'symlink_install': False, 'test_result_base': None}
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.588s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/sllidar_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/sllidar_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/johan/sllidar_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.615s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.635s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2' with build type 'ament_cmake'
+[1.635s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/sllidar_ws/src/fdilink_ahrs_ROS2'
+[1.655s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.717s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/sllidar_ws/src/robot_bringup' with build type 'ament_cmake'
+[1.717s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/sllidar_ws/src/robot_bringup'
+[1.738s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.799s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/sllidar_ws/src/robot_cartographer' with build type 'ament_cmake'
+[1.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/sllidar_ws/src/robot_cartographer'
+[1.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.881s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/sllidar_ws/src/robot_navigation2' with build type 'ament_cmake'
+[1.882s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/sllidar_ws/src/robot_navigation2'
+[1.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.963s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/johan/sllidar_ws/src/robot_template' with build type 'ament_python'
+[1.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_template', 'ament_prefix_path')
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_template/share/robot_template/hook/ament_prefix_path.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_template/share/robot_template/hook/ament_prefix_path.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_template/share/robot_template/hook/ament_prefix_path.sh'
+[2.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.066s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/sllidar_ws/src/sam_bot_description' with build type 'ament_cmake'
+[2.066s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/sllidar_ws/src/sam_bot_description'
+[2.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.086s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.148s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/sllidar_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[2.148s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/sllidar_ws/src/sllidar_ros2'
+[2.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/fdilink_ahrs -- -j16 -l16
+[2.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+[2.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+[2.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/robot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_navigation2 -- -j16 -l16
+[2.402s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/johan/sllidar_ws/src/robot_template'
+[2.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/sam_bot_description -- -j16 -l16
+[2.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/sllidar_ros2 -- -j16 -l16
+[2.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/fdilink_ahrs -- -j16 -l16
+[2.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+[2.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+[2.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_navigation2 -- -j16 -l16
+[2.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_bringup
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/fdilink_ahrs
+[2.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer
+[2.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/robot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_navigation2
+[2.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/sam_bot_description -- -j16 -l16
+[2.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_bringup
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup' for CMake module files
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup' for CMake config files
+[2.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/lib'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/bin'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/lib/python3.8/site-packages'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/bin'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[2.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/sllidar_ros2 -- -j16 -l16
+[2.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fdilink_ahrs)
+[2.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/fdilink_ahrs
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs' for CMake module files
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs' for CMake config files
+[2.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('fdilink_ahrs', 'cmake_prefix_path')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/hook/cmake_prefix_path.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/hook/cmake_prefix_path.dsv'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/hook/cmake_prefix_path.sh'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/lib'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/bin'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/lib/pkgconfig/fdilink_ahrs.pc'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/lib/python3.8/site-packages'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/bin'
+[2.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.ps1'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.bash'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.zsh'
+[2.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/fdilink_ahrs/share/colcon-core/packages/fdilink_ahrs)
+[2.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_cartographer)
+[2.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer
+[2.736s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer' for CMake module files
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer' for CMake config files
+[2.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cartographer', 'cmake_prefix_path')
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/hook/cmake_prefix_path.ps1'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/hook/cmake_prefix_path.dsv'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/hook/cmake_prefix_path.sh'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/bin'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/lib/pkgconfig/robot_cartographer.pc'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/lib/python3.8/site-packages'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/bin'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.ps1'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.dsv'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.sh'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.bash'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.zsh'
+[2.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_cartographer/share/colcon-core/packages/robot_cartographer)
+[2.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_navigation2)
+[2.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_navigation2
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2' for CMake module files
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2' for CMake config files
+[2.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation2', 'cmake_prefix_path')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.sh'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/bin'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/lib/pkgconfig/robot_navigation2.pc'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/lib/python3.8/site-packages'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/bin'
+[2.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.ps1'
+[2.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.dsv'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.sh'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.bash'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.zsh'
+[2.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_navigation2/share/colcon-core/packages/robot_navigation2)
+[2.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/sam_bot_description
+[2.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup' for CMake module files
+[2.895s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup' for CMake config files
+[2.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[2.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/lib'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/bin'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/lib/python3.8/site-packages'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_bringup/bin'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[2.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[2.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/sllidar_ros2
+[2.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/sllidar_ws/src/robot_template': PYTHONPATH=/home/johan/sllidar_ws/build/robot_template/prefix_override:/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_template build --build-base /home/johan/sllidar_ws/build/robot_template/build install --record /home/johan/sllidar_ws/build/robot_template/install.log --install-scripts $base/lib/robot_template --single-version-externally-managed
+[2.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fdilink_ahrs)
+[2.992s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs' for CMake module files
+[2.993s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs' for CMake config files
+[2.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('fdilink_ahrs', 'cmake_prefix_path')
+[3.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/hook/cmake_prefix_path.ps1'
+[3.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/hook/cmake_prefix_path.dsv'
+[3.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/hook/cmake_prefix_path.sh'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/lib'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/bin'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/lib/pkgconfig/fdilink_ahrs.pc'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/lib/python3.8/site-packages'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/fdilink_ahrs/bin'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.ps1'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.sh'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.bash'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.zsh'
+[3.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/fdilink_ahrs/share/colcon-core/packages/fdilink_ahrs)
+[3.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_cartographer)
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer' for CMake module files
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer' for CMake config files
+[3.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cartographer', 'cmake_prefix_path')
+[3.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/hook/cmake_prefix_path.ps1'
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/hook/cmake_prefix_path.dsv'
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/hook/cmake_prefix_path.sh'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/bin'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/lib/pkgconfig/robot_cartographer.pc'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/lib/python3.8/site-packages'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_cartographer/bin'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.sh'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.bash'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_cartographer/share/robot_cartographer/package.zsh'
+[3.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_cartographer/share/colcon-core/packages/robot_cartographer)
+[3.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[3.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/sam_bot_description
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description' for CMake module files
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description' for CMake config files
+[3.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[3.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[3.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/bin'
+[3.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[3.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/lib/python3.8/site-packages'
+[3.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/bin'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.sh'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.bash'
+[3.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[3.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[3.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_navigation2)
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2' for CMake module files
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2' for CMake config files
+[3.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation2', 'cmake_prefix_path')
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.ps1'
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.dsv'
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.sh'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/bin'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/lib/pkgconfig/robot_navigation2.pc'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/lib/python3.8/site-packages'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_navigation2/bin'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.ps1'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.dsv'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.sh'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.bash'
+[3.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_navigation2/share/robot_navigation2/package.zsh'
+[3.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_navigation2/share/colcon-core/packages/robot_navigation2)
+[3.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/sllidar_ws/install/robot_template:/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/sllidar_ros2
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2' for CMake module files
+[3.295s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2' for CMake config files
+[3.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/lib'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/bin'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/bin'
+[3.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/sllidar_ws/src/robot_template' returned '0': PYTHONPATH=/home/johan/sllidar_ws/build/robot_template/prefix_override:/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_template build --build-base /home/johan/sllidar_ws/build/robot_template/build install --record /home/johan/sllidar_ws/build/robot_template/install.log --install-scripts $base/lib/robot_template --single-version-externally-managed
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template' for CMake module files
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template' for CMake config files
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template/lib'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template/bin'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template/lib/pkgconfig/robot_template.pc'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template/lib/python3.8/site-packages'
+[3.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_template', 'pythonpath')
+[3.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_template/share/robot_template/hook/pythonpath.ps1'
+[3.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/robot_template/share/robot_template/hook/pythonpath.dsv'
+[3.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/robot_template/share/robot_template/hook/pythonpath.sh'
+[3.382s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/robot_template/bin'
+[3.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_template)
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_template/share/robot_template/package.ps1'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/robot_template/share/robot_template/package.dsv'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_template/share/robot_template/package.sh'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_template/share/robot_template/package.bash'
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/robot_template/share/robot_template/package.zsh'
+[3.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/robot_template/share/colcon-core/packages/robot_template)
+[3.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[3.443s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description' for CMake module files
+[3.443s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description' for CMake config files
+[3.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/bin'
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/lib/python3.8/site-packages'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sam_bot_description/bin'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.sh'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.bash'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[3.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[3.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.524s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2' for CMake module files
+[3.524s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2' for CMake config files
+[3.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/lib'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/bin'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/johan/sllidar_ws/install/sllidar_ros2/bin'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/sllidar_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/sllidar_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.566s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.591s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/sllidar_ws/install/local_setup.ps1'
+[3.625s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johan/sllidar_ws/install/_local_setup_util_ps1.py'
+[3.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/sllidar_ws/install/setup.ps1'
+[3.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/sllidar_ws/install/local_setup.sh'
+[3.646s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johan/sllidar_ws/install/_local_setup_util_sh.py'
+[3.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/sllidar_ws/install/setup.sh'
+[3.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/sllidar_ws/install/local_setup.bash'
+[3.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/sllidar_ws/install/setup.bash'
+[3.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/sllidar_ws/install/local_setup.zsh'
+[3.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/sllidar_ws/install/setup.zsh'

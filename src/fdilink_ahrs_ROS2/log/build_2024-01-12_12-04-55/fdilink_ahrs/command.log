@@ -1,0 +1,6 @@
+Invoking command in '/home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/johan/fdilink_ahrs_ROS2/install/fdilink_ahrs
+Invoked command in '/home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/johan/fdilink_ahrs_ROS2/install/fdilink_ahrs
+Invoking command in '/home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs -- -j16 -l16
+Invoked command in '/home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs -- -j16 -l16
+Invoking command in '/home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs
+Invoked command in '/home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/fdilink_ahrs_ROS2/build/fdilink_ahrs

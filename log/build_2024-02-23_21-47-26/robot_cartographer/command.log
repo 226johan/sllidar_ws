@@ -1,0 +1,6 @@
+Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_cartographer
+Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/sllidar_ws/src/robot_cartographer -DCMAKE_INSTALL_PREFIX=/home/johan/sllidar_ws/install/robot_cartographer
+Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_cartographer -- -j16 -l16
+Invoking command in '/home/johan/sllidar_ws/build/robot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer
+Invoked command in '/home/johan/sllidar_ws/build/robot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/robot_cartographer

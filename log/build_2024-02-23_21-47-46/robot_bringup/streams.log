@@ -1,0 +1,41 @@
+[0.427s] Invoking command in '/home/johan/sllidar_ws/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16
+[0.634s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.634s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.634s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.808s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.830s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.878s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.883s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.096s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.138s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.138s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.138s] -- Configured cppcheck include dirs: 
+[1.139s] -- Configured cppcheck exclude dirs and/or files: 
+[1.139s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.140s] -- Configured cpplint exclude dirs and/or files: 
+[1.140s] -- Added test 'lint_cmake' to check CMake code style
+[1.140s] -- Added test 'uncrustify' to check C / C++ code style
+[1.140s] -- Configured uncrustify additional arguments: 
+[1.140s] -- Added test 'xmllint' to check XML markup files
+[1.141s] -- Configuring done
+[1.142s] CMake Error at CMakeLists.txt:36 (add_executable):
+[1.142s]   Cannot find source file:
+[1.143s] 
+[1.143s]     rclcpp
+[1.143s] 
+[1.144s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.144s]   .hpp .hxx .in .txx
+[1.144s] 
+[1.145s] 
+[1.145s] CMake Error at CMakeLists.txt:36 (add_executable):
+[1.145s]   No SOURCES given to target: robot_bringup
+[1.146s] 
+[1.146s] 
+[1.146s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.146s] make: *** [Makefile:222：cmake_check_build_system] 错误 1
+[1.364s] Invoked command in '/home/johan/sllidar_ws/build/robot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/robot_bringup -- -j16 -l16

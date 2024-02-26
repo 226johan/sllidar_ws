@@ -1,0 +1,27 @@
+[0.478s] Invoking command in '/home/johan/sllidar_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/fdilink_ahrs -- -j16 -l16
+[0.683s] [ 40%] Built target imu_tf_node
+[0.684s] [100%] Built target ahrs_driver_node
+[0.693s] Invoked command in '/home/johan/sllidar_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/sllidar_ws/build/fdilink_ahrs -- -j16 -l16
+[0.736s] Invoking command in '/home/johan/sllidar_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/fdilink_ahrs
+[0.747s] -- Install configuration: ""
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/imu_tf.launch.py
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv
+[0.747s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv
+[0.748s] -- Installing: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake
+[0.748s] -- Up-to-date: /home/johan/sllidar_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.xml
+[0.829s] Invoked command in '/home/johan/sllidar_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/sllidar_ws/build/fdilink_ahrs
